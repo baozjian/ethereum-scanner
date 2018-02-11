@@ -43,7 +43,7 @@
 
 使用vi /etc/crontab，添加/bin/sh /www/jifen/run.sh >> /www/jifen/run.log 2>&1 设置定时5min，run.log为日志文件。
 
-使用即可使用localhost/detial.php?address=查询地址
+即可使用localhost/detial.php?address=查询地址。
 
 
 
