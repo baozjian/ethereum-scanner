@@ -1,6 +1,6 @@
 # ethereum-scanner
 ## 使用linux shell脚本扫描以太坊（共有链）
-#### 由于以太坊缺乏针对address的查询功能，官方也认为没有提供的必要，为了模仿https://etherscan.io/ 写了此脚本。可以实现定时讲区块中交易信息录入redis中，提供php查询，返回json文件，输出区块哈希，区块高度，交易哈希，交易value，from,to。 
+#### 由于以太坊缺乏针对address的查询功能，官方也认为没有提供的必要，为了模仿https://etherscan.io/ 写了此脚本。可以实现定时将区块中交易信息录入redis中，提供php查询，返回json文件，输出区块哈希，区块高度，交易哈希，交易value，from，to。 
 ### 运行环境：CENTOS7
 ### 预备环境
 - 安装nodejs
