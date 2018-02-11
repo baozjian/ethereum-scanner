@@ -35,15 +35,15 @@
 
 ### 配置和运行
 
-修改ethereum-account-scanner中的29行，30行，修改host和post为公有链或者私有链rpc地址。
+- 修改ethereum-account-scanner中的29行，30行，修改host和post为公有链或者私有链rpc地址。
 
-修改resolve.php中redis服务地址。
+- 修改resolve.php中redis服务地址。
 
-修改detail.php中redis服务地址。
+- 修改detail.php中redis服务地址。
 
-使用vi /etc/crontab，添加/bin/sh /www/jifen/run.sh >> /www/jifen/run.log 2>&1 设置定时5min，run.log为日志文件。
+- 使用vi /etc/crontab，添加/bin/sh /www/jifen/run.sh >> /www/jifen/run.log 2>&1 设置定时5min，run.log为日志文件。
 
-即可使用localhost/detial.php?address=查询地址。
+- 即可使用localhost/detial.php?address=查询地址。
 
 
 
